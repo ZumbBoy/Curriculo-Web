@@ -27,6 +27,15 @@
   min-height:100vh;
 }
 
+@media(max-widht: 768px){
+  .row{
+    flex-direction: column;
+  }
+  .column, .column2{
+    width: 100%;
+  }
+}
+
 .foto{
      width: 150px;
      height: 160px;
