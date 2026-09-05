@@ -83,9 +83,11 @@
   }
   .column, .column2{
     width: 100% !important;
+    
   }
   .column{
-    text-align: center;
+    text-align: center !important;
+    
   }
   .column ul{
     text-align: left;
@@ -99,7 +101,9 @@
      border-radius: 50%;
      border: 3px;
      object-fit: cover;
-     display: block;
-     margin: 0 auto 15px auto;
+     display: block !important;
+     margin-left: auto !important;
+     margin-right: auto !important;
+     margin-bottom: 15px;
      
 }
