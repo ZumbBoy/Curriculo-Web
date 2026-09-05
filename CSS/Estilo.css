@@ -4,10 +4,8 @@
 
 /* Create two equal columns that floats next to each other */
 .column {
-  float: left;
   width: 20%;
-  padding: 10px;
-  height: 850px;
+  padding: 1%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
     url(Tech.jpg);
     
@@ -18,17 +16,15 @@
 }
 
 .column2 {
-  float: left;
   width: 80%;
-  padding: 50px;
-  height: 850px;
+  padding: 3%;
 }
 
 /* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  min-height:100vh;
 }
 
 .foto{
