@@ -2,6 +2,13 @@
   box-sizing: border-box;
 }
 
+/* Clear floats after the columns */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  min-height:100vh;
+}
+
 /* Create two equal columns that floats next to each other */
 .column {
   width: 20%;
@@ -20,19 +27,12 @@
   padding: 3%;
 }
 
-/* Clear floats after the columns */
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  min-height:100vh;
-}
-
 @media(max-widht: 768px){
   .row{
-    flex-direction: column;
+    flex-direction: column !important;
   }
   .column, .column2{
-    width: 100%;
+    width: 100% !important;
   }
 }
 
