@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 850px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+    url(Tech.jpg);
+    
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;;
+  
+}
+
+.column2 {
+  float: left;
+  width: 80%;
+  padding: 50px;
+  height: 850px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.foto{
+     width: 150px;
+     height: 160px;
+     border-radius: 80%;
+     border-color: aliceblue;
+     border-style: groove;
+     object-fit: cover;
+     
+}
