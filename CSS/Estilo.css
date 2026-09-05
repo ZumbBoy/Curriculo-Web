@@ -3,9 +3,7 @@
   margin: 0;
   padding: 0;
 }
- body{
-  font-family: Arial, sans-serif;
- }
+
 
 /* Clear floats after the columns */
 .row {
@@ -38,6 +36,7 @@
 .column ul {
   list-style: none;
   padding-left: 0;
+  color: white;
 }
 
 .column li {
